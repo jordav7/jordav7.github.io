@@ -1,0 +1,10 @@
+[
+	{
+		textLink: "Inicio",
+		url: "/"
+	},
+	{
+		textLink: "Blog",
+		url: "/blog"
+	}
+]

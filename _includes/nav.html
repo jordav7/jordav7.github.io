@@ -1,0 +1,5 @@
+<nav>
+	{% for link in site.data.head_links %}
+		<a href="{{link.url}}" class="hack_link">{{link.textLink}}</a>
+	{% endfor %}
+</nav>
