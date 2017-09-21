@@ -7,16 +7,16 @@ nav{padding:20px}
 @media (min-width:769px){
 	nav{
 		padding:2em 4em;
-		text-align:right
+		text-align:center
 	}
 }
-.nav__link{
+.hack_link{
 	font-size:.9em;
 	letter-spacing:.03em;
 	text-transform:uppercase
 }
-.nav__link,.nav__link:visited{color:#2196f3}
-.nav__link+.nav__link{margin:0 0 0 3em}
+.hack_link,.hack_link:visited{color:#2196f3}
+.hack_link+.hack_link{margin:0 0 0 3em}
 @media (min-width:769px){
-	.nav__link+.nav__link{margin:0 0 0 4em}
+	.hack_link+.hack_link{margin:0 0 0 4em}
 }
