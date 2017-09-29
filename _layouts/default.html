@@ -61,7 +61,7 @@
 								<div id="sidebar">
 
 									<!-- Sidebar -->
-										<section>
+										<!--<section>
 											<h3>Subheading</h3>
 											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
 											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
@@ -70,17 +70,18 @@
 											<footer>
 												<a href="#" class="button icon fa-info-circle">Find out more</a>
 											</footer>
-										</section>
+										</section>-->
 
 										<section>
-											<h3>Subheading</h3>
+											<h3>Posts</h3>
 											<ul class="style2">
-												<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-												<li><a href="#">Ornare in hendrerit in lectus</a></li>
-												<li><a href="#">Semper mod quis eget mi dolore</a></li>
-												<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-												<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-												<li><a href="#">Semper mod quisturpis nisi</a></li>
+												{% for post in site.posts %}
+												<li>
+													{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+													<span>{{ post.date | date: date_format }}</span>
+													<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+												</li>
+												{% endfor %}
 											</ul>
 										</section>
 
