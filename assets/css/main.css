@@ -2220,6 +2220,13 @@
 			#sidebar > :last-child {
 				margin-bottom: 0 !important;
 			}
+			#content ol{
+				list-style: decimal;
+			}
+			
+			#content ul{
+				list-style: disc;
+			}
 
 		/* Footer */
 
