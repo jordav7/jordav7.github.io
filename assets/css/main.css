@@ -2220,11 +2220,11 @@
 			#sidebar > :last-child {
 				margin-bottom: 0 !important;
 			}
-			#content ol{
+			#home ol{
 				list-style: decimal;
 			}
 			
-			#content ul{
+			#home ul{
 				list-style: disc;
 			}
 
