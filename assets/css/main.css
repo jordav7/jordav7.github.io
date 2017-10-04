@@ -84,6 +84,14 @@
 	.container {
 		width: 1400px;
 	}
+	
+	.home ol{
+		list-style: decimal;
+	}
+	
+	.home ul{
+		list-style: disc;
+	}
 
 	@media screen and (max-width: 1680px) {
 
