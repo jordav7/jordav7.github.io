@@ -16,10 +16,10 @@ Ahora para que no tengas este tipo de inconvenientes, jasperreports no toma ning
 
 Para poder usar las fuentes que deseemos una vez las descarguemos o las obtengamos de donde sea **ejemplo:** *para Times New Roman serán las siguientes (times.tff, timesbd.tff, timesbi.tff, timesi.tff) que son la letra normal, negrita, negrita cursiva y cursiva*, colocarlas dentro una carpeta y seguir los siguientes pasos dentro de jaspersoft studio:
 
-  1. Menu Window -> Preferences -> Jaspersoft Studio -> Fonts.
-  2. Presionar el botón **Add From Path** y buscar la carpeta en donde se colocó los fuentes.
-  3. Para añadir más fuentes seguir el mismo procedimiento.
-  4. Una vez termines selecciona todas o solo las fuentes que necesites y presionar el botón **Export** escoges la ruta donde se va a exportar y presionas OK.
+  * Menu Window -> Preferences -> Jaspersoft Studio -> Fonts.
+  * Presionar el botón **Add From Path** y buscar la carpeta en donde se colocó los fuentes.
+  * Para añadir más fuentes seguir el mismo procedimiento.
+  * Una vez termines selecciona todas o solo las fuentes que necesites y presionar el botón **Export** escoges la ruta donde se va a exportar y presionas OK.
    
 Con esto puedes llevar tus fuentes como librería a cualquier proyecto que necesites!!!
 
